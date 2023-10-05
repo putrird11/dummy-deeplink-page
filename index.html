@@ -2,12 +2,34 @@
 <html>
 <head>
     <title>Dummy Web Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+        p {
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Dummy Web Page</h1>
+    <div>
+        <h1>Welcome to Dummy Web Page</h1>
     
-    <p>This is a simple web page that can handle deeplink for "scan_receipt".</p>
+        <p>This is a simple web page that can handle deeplinks for "scan_receipt," "convert," and "reward."</p>
     
-    <a href="GetPlus://scan_receipt">Click here to simulate the "scan_receipt" deeplink</a>
+        <a href="mygetplus://scan_receipt">Click here to simulate the "scan_receipt" deeplink and navigate to the scan receipt page</a>
+        <a href="mygetplus://convert">Click here to simulate the "convert" deeplink and navigate to the convert page</a>
+        <a href="mygetplus://reward">Click here to simulate the "reward" deeplink and navigate to the reward page</a>
+    </div>
 </body>
 </html>
+
